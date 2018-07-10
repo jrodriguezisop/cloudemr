@@ -1,0 +1,27 @@
+{
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": [
+        "stage-0"
+      ],
+      "plugins": ["istanbul"]
+    },
+    "main": {
+      "presets": [
+        "stage-0"
+      ]
+    },
+    "renderer": {
+      "presets": [
+        "stage-0"
+      ]
+    },
+    "web": {
+      "presets": [
+        "stage-0"
+      ]
+    }
+  },
+  "plugins": ["transform-runtime"]
+}

@@ -1,0 +1,105 @@
+#toolbar1{
+    display: inline;
+    color:grey;
+}
+#drawer1{
+    display: inline;
+}
+#footer{
+    background-color: #424242;
+    background: #424242;
+    text-align: center;
+}
+#clase{
+    background-color: #424242;
+    background: #424242;
+}
+a{
+
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+a:hover{
+    text-decoration:none;
+    font-size: 20px;
+    color: rgb(255, 161, 55)
+}
+.contIMG{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.onIMG{
+    position: absolute;
+    top: 22%;
+    left: 23%;
+    
+}
+.onIMG2{
+    position: absolute;
+    top:42%;
+    left:10%;
+}
+.perfil{
+    color:white; 
+    float:left; 
+    top:-10%;
+    font-size: 20px;
+    padding-top:10px; 
+    margin-right:20px;
+}
+.footer2{
+ margin-top: 65%;
+ color: #424242;
+ margin-bottom: -25%;
+ 
+}
+.intermedio{
+    height: 320px;
+    width: 1600px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.intermedio-2{
+position: absolute;
+top:28%;
+left:25%;
+color:black;
+text-align:center;
+}
+.intermedio-3{
+    position: absolute;
+    top:28%;
+    left:40%;
+    color:black;
+    text-align:center;
+}
+.intermedio-4{
+    position: absolute;
+    top:28%;
+    left:60%;
+    color:black;
+    text-align:center;
+}
+.intermedio-5{
+    position: absolute;
+    top:28%;
+    left:70%;
+    color:black;
+    text-align:center;
+}
+.greatImage{
+    position:absolute;
+    
+}
+.a-footer{
+    font-size: 20px;
+    color: grey;
+}
+.a-footer:hover{
+color: rgb(255, 161, 55)
+}

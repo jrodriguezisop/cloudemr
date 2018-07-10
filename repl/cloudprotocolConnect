@@ -1,0 +1,96 @@
+process.cwd = "/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud"
+let r = require('rethinkdb')
+r.connect({
+      user: 'electron-public',
+      password: 'jrodriguez',
+      db: '8b60a21392f5c255d7a38c71389b8f7b54e40b90'
+    }).then(c => {
+      c.addListener('error', (e) => {
+        console.log(e)
+        // TODO: sent event to Notification stream
+      })
+      cloudProtocolConn = c
+    }).catch(e => {
+      // TODO: send event to Notification stream
+      closeWin()
+    })
+cloudProdocolConn
+let cloudProtocolConn
+r.connect({
+      user: 'electron-public',
+      password: 'jrodriguez',
+      db: '8b60a21392f5c255d7a38c71389b8f7b54e40b90'
+    }).then(c => {
+      c.addListener('error', (e) => {
+        console.log(e)
+        // TODO: sent event to Notification stream
+      })
+      cloudProtocolConn = c
+    }).catch(e => {
+      // TODO: send event to Notification stream
+      closeWin()
+    })
+r.connect({
+      user: 'electron-public',
+      password: 'jrodriguez',
+      db: '8b60a21392f5c255d7a38c71389b8f7b54e40b90'
+    }).then(c => {
+      c.addListener('error', (e) => {
+        console.log(e)
+        // TODO: sent event to Notification stream
+      })
+      cloudProtocolConn = c
+    }).catch(e => {
+      // TODO: send event to Notification stream
+      console.log('error')
+    })
+cloudProtocolConn
+console.dir(cloudProtocolConn)
+cloudProtocolConn = r.connect({
+      user: 'electron-public',
+      password: 'jrodriguez',
+      db: '8b60a21392f5c255d7a38c71389b8f7b54e40b90'
+    })
+let cursor = r.db('cloudDesktop').table('public').get('cloudemr').run(cloudProtocolConn)
+cursor.toArray()
+let contenido = require('fs').readFileAsync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+let fs = require('fs')
+let contenido = fs.readFileAsync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+ contenido = fs.readFileAsync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+ contenido = fs.readFileSync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+ let contenido = fs.readFileSync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+ let html = fs.readFileSync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+console.dir(html)
+console.dir(html)
+ var htmlContent = fs.readFileSync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+console.dir(htmlContent)
+fs.readFileSync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html')
+htmlContent = fs.readFileSync('/Volumes/iSopSSD/proyectos/pymes/uno.pymes.cloud/apps/cloudEMR/src/renderer/assets/clouddesktop.html').toString()
+r.db('cloudDesktop').table('public').insert({id: 'cloudemr', content: htmlContent})
+r.db('cloudDesktop').table('public').get('cloudemr')
+var cCursor = r.db('cloudDesktop').table('public').get('cloudemr').run(cloudProtocolConn)
+cCursor.Each()
+cCursor.each()
+r.db('cloudDesktop').table('public').insert({id: 'cloudemr', content: htmlContent})
+r.db('cloudDesktop').table('public').insert({id: 'cloudemr', content: htmlContent}).run()
+r.db('cloudDesktop').table('public').insert({id: 'cloudemr', content: htmlContent}).run(cloudProtocolConn)
+Promise.resolve(r.db('cloudDesktop').table('public').insert({id: 'cloudemr', content: htmlContent}).run(cloudProtocolConn))
+r.connect({
+      user: 'electron-public',
+      password: 'jrodriguez',
+      db: '8b60a21392f5c255d7a38c71389b8f7b54e40b90'
+    }).then(c => {
+      c.addListener('error', (e) => {
+        console.log(e)
+        // TODO: sent event to Notification stream
+      })
+      cloudProtocolConn = c
+    }).catch(e => {
+      // TODO: send event to Notification stream
+      console.log('error')
+    })
+cloudProtocolConn = r.connect({
+      user: 'electron-public',
+      password: 'jrodriguez',
+      db: '8b60a21392f5c255d7a38c71389b8f7b54e40b90'
+    })

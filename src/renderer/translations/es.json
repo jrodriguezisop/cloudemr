@@ -1,0 +1,17 @@
+{
+  "app": {
+    "brand": "Cirubari",
+    "name": "cloudEMR",
+    "title": "cloudEMR CiruBari"
+  },
+  "gral": {
+    "errores": {
+      "nodefinido": "No Registrado",
+      "nodisponible": "No Disponible",
+      "sinpermiso": "No Permitido"
+    }
+  },
+  "viewtitles": {
+    "patientchart": "Expendiente de Paciente"
+  }
+}
